@@ -6,11 +6,11 @@
 /*   By: fcaetano <fernandacunha@id.uff.br>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 15:40:31 by fcaetano          #+#    #+#             */
-/*   Updated: 2022/09/19 19:52:08 by fcaetano         ###   ########.fr       */
+/*   Updated: 2023/03/17 15:36:49 by fcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 int	check_max(char *str, char *max, char *min)
 {

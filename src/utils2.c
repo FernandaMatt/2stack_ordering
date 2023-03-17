@@ -6,11 +6,11 @@
 /*   By: fcaetano <fernandacunha@id.uff.br>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 08:59:55 by fcaetano          #+#    #+#             */
-/*   Updated: 2022/10/06 08:59:58 by fcaetano         ###   ########.fr       */
+/*   Updated: 2023/03/17 15:37:48 by fcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 void	get_index(t_list *stack)
 {

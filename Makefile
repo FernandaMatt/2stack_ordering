@@ -1,10 +1,17 @@
 NAME = push_swap
 
-SRCS = push_swap.c push_swap_moves.c push_swap_moves2.c order5.c order.c utils.c utils2.c error.c
+SRCS = src/push_swap.c \
+	   src/push_swap_moves.c \
+	   src/push_swap_moves2.c \
+	   src/order5.c \
+	   src/order.c \
+	   src/utils.c \
+	   src/utils2.c \
+	   src/error.c
 
 OBJS = $(SRCS:.c=.o)
 
-LIBS = libft/libft.a
+LIBS = src/libft/libft.a
 
 CC = cc
 
@@ -15,14 +22,14 @@ all: $(NAME)
 $(NAME): $(OBJS) $(LIBS)
 	$(CC) $(CFLAGS) $(OBJS) $(LIBS) -o  $(NAME)
 
-$(LIBS): libft/
-	make -C libft/ all
+$(LIBS): src/libft/
+	make -C src/libft/ all
 
 clean:
-	rm -rf *.o libft/*.o
+	rm -rf *.o src/libft/*.o
 
 fclean:
-	rm -rf *.o libft/*.o push_swap libft/libft.a
+	rm -rf *.o src/libft/*.o push_swap src/libft/libft.a
 
 re: fclean all
 

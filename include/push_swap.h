@@ -6,13 +6,13 @@
 /*   By: fcaetano <fernandacunha@id.uff.br>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/25 16:41:32 by fcaetano          #+#    #+#             */
-/*   Updated: 2022/09/21 11:01:09 by fcaetano         ###   ########.fr       */
+/*   Updated: 2023/03/17 15:38:19 by fcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
-# include "libft/libft.h"
+# include "../src/libft/libft.h"
 
 void	print_moves(char *mv);
 void	swap(t_list **stack, char c);

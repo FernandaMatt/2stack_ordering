@@ -6,11 +6,11 @@
 /*   By: fcaetano <fernandacunha@id.uff.br>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 16:20:20 by fcaetano          #+#    #+#             */
-/*   Updated: 2022/09/28 17:01:26 by fcaetano         ###   ########.fr       */
+/*   Updated: 2023/03/17 15:37:00 by fcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 void	pivo_ord(t_list **stack_a, t_list **stack_b)
 {
